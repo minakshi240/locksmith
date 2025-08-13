@@ -137,8 +137,8 @@ h1{
     background-color: var(--lt--violet2);
     text-align: center;
     border-radius: 0.75rem;
-    border: none; /*to remove default border*/
-    outline: none; /*to remove default outline*/
+    border: none; 
+    outline: none; 
     border-bottom: 0.35rem solid var(--vb--yellow);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -212,7 +212,7 @@ h1{
     transition: all 250ms ease-in-out;
 }
 
-.tooltip.active{ /* need to add active class to make span class visible*/
+.tooltip.active{ 
     opacity: 1;
     transform: scale(1);
 } 
